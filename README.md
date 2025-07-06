@@ -17,7 +17,7 @@ your old `init.lua` will be saved to a `init.lua` in the `$HOME/.config/lite-xl/
 ## how to install:
 
 ### *.nix
-```console
+```sh
 
 # gets the theme and both language syntaxes
 $ lpm repo add https://github.com/sirlilpanda/.lite-xl-config:main
@@ -26,8 +26,9 @@ $ lpm repo add https://github.com/sirlilpanda/.lite-xl-config:main
 $ lpm install `(curl https://raw.githubusercontent.com/sirlilpanda/.lite-xl-config/refs/heads/main/plugins.txt)`
 
 # updates the current user module with my init.lua 
-# WARNING THIS WILL OVERWRITE YOUR init.lua
 $ cp $HOME/.config/lite-xl/init.lu/ $HOME/.config/lit/-xl/init_old.lua
+
+# WARNING THIS WILL OVERWRITE YOUR init.lua
 $ curl https://raw.githubusercontent.com/sirlilpanda/.lite-xl-config/refs/heads/main/init.lua > $HOME/.config/lite-xl/init.lua
 
 ```
