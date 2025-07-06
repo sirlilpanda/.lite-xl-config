@@ -7,6 +7,8 @@ in this repo.
 
 your old `init.lua` will be saved to a `init.lua` in the `$HOME/.config/lite-xl/` dir.
 
+![alt text](ref.png)
+
 ## requirements to install
 
 - [`lite-xl`](https://lite-xl.com/)
@@ -31,7 +33,7 @@ $ curl https://raw.githubusercontent.com/sirlilpanda/.lite-xl-config/refs/heads/
 ```
 
 ### windows
-```ps
+```powershell
 > 
 # gets the theme and both language syntaxes
 > lpm repo install https://github.com/sirlilpanda/.lite-xl-config:main
