@@ -14,7 +14,7 @@ local style = require "core.style"
 
 -- [TODO] see if i can write something to auto download 
 
-core.reload_module("colors.panda_box")
+core.reload_module("colors.pandas_gruv_box")
 
 -- [TODO] try to work out how to auto load new syntaxs
 
