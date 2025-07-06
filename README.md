@@ -27,7 +27,7 @@ $ lpm install `(curl https://raw.githubusercontent.com/sirlilpanda/.lite-xl-conf
 
 # updates the current user module with my init.lua 
 # WARNING THIS WILL OVERWRITE YOUR init.lua
-$ cp $HOME\.config\lite-xl\init.lua $HOME\.config\lite-xl\init_old.lua
+$ cp $HOME/.config/lite-xl/init.lu/ $HOME/.config/lit/-xl/init_old.lua
 $ curl https://raw.githubusercontent.com/sirlilpanda/.lite-xl-config/refs/heads/main/init.lua > $HOME/.config/lite-xl/init.lua
 
 ```
