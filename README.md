@@ -7,6 +7,11 @@ in this repo.
 
 your old `init.lua` will be saved to a `init.lua` in the `$HOME/.config/lite-xl/` dir.
 
+## requirements to install
+
+- [`lite-xl`](https://lite-xl.com/)
+- [`lpm`](https://github.com/lite-xl/lite-xl-plugin-manager)
+
 ## how to install:
 
 ### *.nix
