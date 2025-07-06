@@ -23,6 +23,6 @@
             "tags": ["theme"],
             "description": "a tweak to the gruvbox soft medium theme",
             "path": "panda_box.lua"
-        },
+        }
     ]
 }
