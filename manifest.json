@@ -2,7 +2,6 @@
     "addons": [
         {
             "id": "pandas_syntax_c",
-            "mod_version": "3",
             "version": "0.0.1",
             "type": "plugin",
             "tags": ["language"],
