@@ -2,7 +2,7 @@
     "addons": [
         {
             "id": "pandas_syntax_c",
-            "name" : "pandas c syntax",
+            "name" : "pandas_syntax_c",
             "version": "0.0.1",
             "type": "plugin",
             "tags": ["language"],
@@ -11,7 +11,7 @@
         },
         {
             "id": "pandas_syntax_cpp",
-            "name" : "pandas cpp syntax",
+            "name" : "pandas_syntax_cpp",
             "version": "0.0.1",
             "type": "plugin",
             "tags": ["language"],
@@ -20,7 +20,7 @@
         },
         {
             "id": "pandas_gruv_box",
-            "name" : "pandas gruv box",
+            "name" : "pandas_gruv_box",
             "version": "0.0.1",
             "type": "color",
             "tags": ["theme"],
