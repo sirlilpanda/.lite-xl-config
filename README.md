@@ -20,7 +20,7 @@ your old `init.lua` will be saved to a `init.lua` in the `$HOME/.config/lite-xl/
 ```console
 
 # gets the theme and both language syntaxes
-$ lpm repo install https://github.com/sirlilpanda/.lite-xl-config:main
+$ lpm repo add https://github.com/sirlilpanda/.lite-xl-config:main
 
 # installs all the plugins i normally used font in plugins.txt
 $ lpm install `(curl https://raw.githubusercontent.com/sirlilpanda/.lite-xl-config/refs/heads/main/plugins.txt)`
@@ -36,7 +36,7 @@ $ curl https://raw.githubusercontent.com/sirlilpanda/.lite-xl-config/refs/heads/
 ```powershell
 
 # gets the theme and both language syntaxes
-> lpm repo install https://github.com/sirlilpanda/.lite-xl-config:main
+> lpm repo add https://github.com/sirlilpanda/.lite-xl-config:main
 
 # installs all the plugins i normally used font in plugins.txt
 > ForEach ($line in (Invoke-WebRequest https://raw.githubusercontent.com/sirlilpanda/.lite-xl-config/refs/heads/main/plugins.txt | Select-Object -Expand Content).split()){ lpm install $line}
