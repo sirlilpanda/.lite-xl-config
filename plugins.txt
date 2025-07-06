@@ -34,3 +34,6 @@ todotreeview
 widget
 gruvbox_dark
 json
+pandas_gruv_box
+pandas_syntax_cpp
+pandas_syntax_c
