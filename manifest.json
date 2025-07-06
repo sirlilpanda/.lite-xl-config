@@ -1,0 +1,31 @@
+{
+    "addons": [
+        {
+            "id": "pandas_syntax_c",
+            "name" : "pandas c syntax"
+            "version": "0.0.1",
+            "type": "plugin",
+            "tags": ["language"],
+            "description": "a slightly tweaked syntax to c for my theme to make it look prettier",
+            "path": "panda_language_c.lua"
+        },
+        {
+            "id": "pandas_syntax_cpp",
+            "name" : "pandas cpp syntax"
+            "version": "0.0.1",
+            "type": "plugin",
+            "tags": ["language"],
+            "description": "a slightly tweaked syntax to cpp for my theme to make it look prettier mainly used for .h files but i will be working on cpp",
+            "path": "panda_language_cpp.lua"
+        },
+        {
+            "id": "pandas_gruv_box",
+            "name" : "pandas gruv box"
+            "version": "0.0.1",
+            "type": "color",
+            "tags": ["theme"],
+            "description": "a tweak to the gruvbox soft medium theme",
+            "path": "panda_box.lua"
+        },
+    ]
+}
