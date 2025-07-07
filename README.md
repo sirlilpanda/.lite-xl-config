@@ -17,17 +17,18 @@ your old `init.lua` will be saved to a `init.lua` in the `$HOME/.config/lite-xl/
 ## how to install:
 
 ### *.nix
-```console
+```sh
 
 # gets the theme and both language syntaxes
-$ lpm repo install https://github.com/sirlilpanda/.lite-xl-config:main
+$ lpm repo add https://github.com/sirlilpanda/.lite-xl-config:main
 
 # installs all the plugins i normally used font in plugins.txt
 $ lpm install `(curl https://raw.githubusercontent.com/sirlilpanda/.lite-xl-config/refs/heads/main/plugins.txt)`
 
 # updates the current user module with my init.lua 
+$ cp $HOME/.config/lite-xl/init.lu/ $HOME/.config/lit/-xl/init_old.lua
+
 # WARNING THIS WILL OVERWRITE YOUR init.lua
-$ cp $HOME\.config\lite-xl\init.lua $HOME\.config\lite-xl\init_old.lua
 $ curl https://raw.githubusercontent.com/sirlilpanda/.lite-xl-config/refs/heads/main/init.lua > $HOME/.config/lite-xl/init.lua
 
 ```
@@ -36,7 +37,7 @@ $ curl https://raw.githubusercontent.com/sirlilpanda/.lite-xl-config/refs/heads/
 ```powershell
 
 # gets the theme and both language syntaxes
-> lpm repo install https://github.com/sirlilpanda/.lite-xl-config:main
+> lpm repo add https://github.com/sirlilpanda/.lite-xl-config:main
 
 # installs all the plugins i normally used font in plugins.txt
 > ForEach ($line in (Invoke-WebRequest https://raw.githubusercontent.com/sirlilpanda/.lite-xl-config/refs/heads/main/plugins.txt | Select-Object -Expand Content).split()){ lpm install $line}
@@ -47,3 +48,8 @@ $ curl https://raw.githubusercontent.com/sirlilpanda/.lite-xl-config/refs/heads/
 # WARNING THIS WILL OVERWRITE YOUR init.lua
 > (Invoke-WebRequest https://raw.githubusercontent.com/sirlilpanda/.lite-xl-config/refs/heads/main/init.lua | Select-Object -Expand Content) > $HOME\.config\lite-xl\init.lua
 ```
+
+
+# TODO
+- roll these commands in to a single command to updating to the latest version
+- fix the `@name()` syntax in zig 
