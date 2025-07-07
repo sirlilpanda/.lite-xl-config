@@ -52,4 +52,3 @@ $ curl https://raw.githubusercontent.com/sirlilpanda/.lite-xl-config/refs/heads/
 
 # TODO
 - roll these commands in to a single command to updating to the latest version
-- fix the `@name()` syntax in zig 
