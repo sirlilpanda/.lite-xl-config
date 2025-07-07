@@ -18,6 +18,15 @@
             "path": "panda_language_cpp.lua"
         },
         {
+            "id": "pandas_syntax_zig",
+            "mod_version": "3",
+            "version": "0.0.1",
+            "type": "color",
+            "tags": ["theme"],
+            "description": "a slightly tweaked syntax to zig for my theme",
+            "path": "panda_language_cpp.lua"
+        },
+        {
             "id": "pandas_gruv_box",
             "mod_version": "3",
             "version": "0.0.1",
