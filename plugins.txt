@@ -37,3 +37,5 @@ json
 pandas_gruv_box
 pandas_syntax_cpp
 pandas_syntax_c
+pandas_syntax_zig
+
