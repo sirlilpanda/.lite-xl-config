@@ -48,3 +48,7 @@ $ curl https://raw.githubusercontent.com/sirlilpanda/.lite-xl-config/refs/heads/
 # WARNING THIS WILL OVERWRITE YOUR init.lua
 > (Invoke-WebRequest https://raw.githubusercontent.com/sirlilpanda/.lite-xl-config/refs/heads/main/init.lua | Select-Object -Expand Content) > $HOME\.config\lite-xl\init.lua
 ```
+
+
+# TODO
+- roll these commands in to a single command to updating to the latest version
