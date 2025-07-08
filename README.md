@@ -24,10 +24,10 @@ your old `init.lua` will be saved to a `init.lua` in the `$HOME/.config/lite-xl/
 
 ```sh
 # to install
-$ bash -ci "$(curl https://raw.githubusercontent.com/sirlilpanda/.lite-xl-config/refs/heads/main/scripts/install.sh)"
+$ cat <(curl -s https://raw.githubusercontent.com/sirlilpanda/.lite-xl-config/refs/heads/one-line-command-update-and-install/scripts/install.sh) | bash
 
 # to update
-$ bash -ci "$(curl https://raw.githubusercontent.com/sirlilpanda/.lite-xl-config/refs/heads/main/scripts/update.sh)"
+$ cat <(curl -s https://raw.githubusercontent.com/sirlilpanda/.lite-xl-config/refs/heads/one-line-command-update-and-install/scripts/update.sh) | bash
 
 ```
 
