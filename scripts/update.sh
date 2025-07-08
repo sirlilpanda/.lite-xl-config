@@ -12,4 +12,8 @@ lpm upgrade
 cp $HOME/.config/lite-xl/init.lua $HOME/.config/lite-xl/init_old.lua
 
 # this will combine your current config file with the new file
-awk 'NR==FNR' $HOME/.config/lite-xl/init.lua <(echo curl https://raw.githubusercontent.com/sirlilpanda/.lite-xl-config/refs/heads/main/init.lua) > $HOME/.config/lite-xl/init.lua
+# i will work out this command another time
+# awk 'NR==FNR' $HOME/.config/lite-xl/init.lua <(echo curl https://raw.githubusercontent.com/sirlilpanda/.lite-xl-config/refs/heads/main/init.lua) > $HOME/.config/lite-xl/init.lua
+
+curl https://raw.githubusercontent.com/sirlilpanda/.lite-xl-config/refs/heads/main/init.lua > $HOME/.config/lite-xl/init.lua
+
