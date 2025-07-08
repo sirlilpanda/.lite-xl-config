@@ -3,7 +3,7 @@ local syntax = require "core.syntax"
 
 syntax.add {
   name = "Zig",
-  files = { "%.zig$" },
+  files = { "%.zig$", "%.zig.zon" },
   comment = "//",
   patterns = {
     { pattern = "//.-\n",                       type = "comment"  },
