@@ -20,7 +20,7 @@
         {
             "id": "pandas_syntax_zig",
             "mod_version": "3",
-            "version": "0.0.1",
+            "version": "0.0.2",
             "type": "color",
             "tags": ["theme"],
             "description": "a slightly tweaked syntax to zig for my theme",
@@ -29,7 +29,7 @@
         {
             "id": "pandas_gruv_box",
             "mod_version": "3",
-            "version": "0.0.1",
+            "version": "0.0.2",
             "type": "color",
             "tags": ["theme"],
             "description": "a tweak to the gruvbox soft medium theme",
