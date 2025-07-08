@@ -13,7 +13,6 @@ formatter
 gitdiff_highlight
 keyhud
 language_caddyfile
-language_zig
 linenumbers
 lintplus
 lsp
