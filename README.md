@@ -22,10 +22,10 @@ installing and updating is as easy as running one command
 
 ```sh
 # to install
-$ cat <(curl -s https://raw.githubusercontent.com/sirlilpanda/.lite-xl-config/refs/heads/one-line-command-update-and-install/scripts/install.sh) | bash
+$ cat <(curl -s https://raw.githubusercontent.com/sirlilpanda/.lite-xl-config/refs/heads/main/scripts/install.sh) | bash
 
 # to update
-$ cat <(curl -s https://raw.githubusercontent.com/sirlilpanda/.lite-xl-config/refs/heads/one-line-command-update-and-install/scripts/update.sh) | bash
+$ cat <(curl -s https://raw.githubusercontent.com/sirlilpanda/.lite-xl-config/refs/heads/main/scripts/update.sh) | bash
 
 ```
 
@@ -35,11 +35,11 @@ $ cat <(curl -s https://raw.githubusercontent.com/sirlilpanda/.lite-xl-config/re
 
 # to install
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
-Invoke-RestMethod -Uri https://raw.githubusercontent.com/sirlilpanda/.lite-xl-config/refs/heads/one-line-command-update-and-install/scripts/install.ps1 | Invoke-Expression
+Invoke-RestMethod -Uri https://raw.githubusercontent.com/sirlilpanda/.lite-xl-config/refs/heads/main/scripts/install.ps1 | Invoke-Expression
 
 # to update
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
-Invoke-RestMethod -Uri https://raw.githubusercontent.com/sirlilpanda/.lite-xl-config/refs/heads/one-line-command-update-and-install/scripts/update.ps1 | Invoke-Expression
+Invoke-RestMethod -Uri https://raw.githubusercontent.com/sirlilpanda/.lite-xl-config/refs/heads/main/scripts/update.ps1 | Invoke-Expression
 
 ```
 
