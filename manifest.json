@@ -21,8 +21,8 @@
             "id": "pandas_syntax_zig",
             "mod_version": "3",
             "version": "0.0.1",
-            "type": "color",
-            "tags": ["theme"],
+            "type": "plugin",
+            "tags": ["language"],
             "description": "a slightly tweaked syntax to zig for my theme",
             "path": "panda_language_cpp.lua"
         },
