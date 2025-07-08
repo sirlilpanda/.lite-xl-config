@@ -24,7 +24,7 @@
             "type": "plugin",
             "tags": ["language"],
             "description": "a slightly tweaked syntax to zig for my theme",
-            "path": "panda_language_cpp.lua"
+            "path": "panda_language_zig.lua"
         },
         {
             "id": "pandas_gruv_box",
