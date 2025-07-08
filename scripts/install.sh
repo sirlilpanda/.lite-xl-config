@@ -1,3 +1,4 @@
+echo "installing sirlilpandas config in to lite-xl"
 
 # gets the theme and both language syntaxes
 lpm repo add https://github.com/sirlilpanda/.lite-xl-config:main
