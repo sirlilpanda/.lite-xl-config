@@ -16,40 +16,33 @@ your old `init.lua` will be saved to a `init.lua` in the `$HOME/.config/lite-xl/
 
 ## how to install:
 
-### *.nix
+installing and updating is as easy as running one command
+
+### *nix
+
 ```sh
+# to install
+$ cat <(curl -s https://raw.githubusercontent.com/sirlilpanda/.lite-xl-config/refs/heads/one-line-command-update-and-install/scripts/install.sh) | bash
 
-# gets the theme and both language syntaxes
-$ lpm repo add https://github.com/sirlilpanda/.lite-xl-config:main
-
-# installs all the plugins i normally used font in plugins.txt
-$ lpm install `(curl https://raw.githubusercontent.com/sirlilpanda/.lite-xl-config/refs/heads/main/plugins.txt)`
-
-# updates the current user module with my init.lua 
-$ cp $HOME/.config/lite-xl/init.lu/ $HOME/.config/lit/-xl/init_old.lua
-
-# WARNING THIS WILL OVERWRITE YOUR init.lua
-$ curl https://raw.githubusercontent.com/sirlilpanda/.lite-xl-config/refs/heads/main/init.lua > $HOME/.config/lite-xl/init.lua
+# to update
+$ cat <(curl -s https://raw.githubusercontent.com/sirlilpanda/.lite-xl-config/refs/heads/one-line-command-update-and-install/scripts/update.sh) | bash
 
 ```
 
 ### windows
-```powershell
 
-# gets the theme and both language syntaxes
-> lpm repo add https://github.com/sirlilpanda/.lite-xl-config:main
+```ps1
 
-# installs all the plugins i normally used font in plugins.txt
-> ForEach ($line in (Invoke-WebRequest https://raw.githubusercontent.com/sirlilpanda/.lite-xl-config/refs/heads/main/plugins.txt | Select-Object -Expand Content).split()){ lpm install $line}
+# to install
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+Invoke-RestMethod -Uri https://raw.githubusercontent.com/sirlilpanda/.lite-xl-config/refs/heads/one-line-command-update-and-install/scripts/install.ps1 | Invoke-Expression
 
-# updates the current user module with my init.lua 
-# this will save your current lua file to a init_old.lua just encase you still need it
-> cp $HOME\.config\lite-xl\init.lua $HOME\.config\lite-xl\init_old.lua
-# WARNING THIS WILL OVERWRITE YOUR init.lua
-> (Invoke-WebRequest https://raw.githubusercontent.com/sirlilpanda/.lite-xl-config/refs/heads/main/init.lua | Select-Object -Expand Content) > $HOME\.config\lite-xl\init.lua
+# to update
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+Invoke-RestMethod -Uri https://raw.githubusercontent.com/sirlilpanda/.lite-xl-config/refs/heads/one-line-command-update-and-install/scripts/update.ps1 | Invoke-Expression
+
 ```
 
-
 # TODO
-- roll these commands in to a single command to updating to the latest version
-- fix the `@name()` syntax in zig 
+- work out merging file togeather so it doesnt full overwrite people own settings
+- get around to working it out on mac (i dont use a mac that often)
