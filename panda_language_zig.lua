@@ -83,7 +83,7 @@ syntax.add {
     ["allowzero"] = "operator",
     ["noalias"] = "keyword2",
     ["nosuspend"] = "operator",
-    
+
     -- types
     ["f16"] = "keyword2",
     ["f32"] = "keyword2",
