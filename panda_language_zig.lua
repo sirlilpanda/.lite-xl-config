@@ -78,11 +78,12 @@ syntax.add {
     ["enum"] = "keyword",
     ["union"] = "keyword",
     ["opaque"] = "keyword2",
+    ["anyopaque"] = "keyword2",
     ["inline"] = "operator",
     ["allowzero"] = "operator",
     ["noalias"] = "keyword2",
     ["nosuspend"] = "operator",
-
+    
     -- types
     ["f16"] = "keyword2",
     ["f32"] = "keyword2",
