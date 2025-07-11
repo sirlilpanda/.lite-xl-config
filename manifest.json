@@ -2,7 +2,7 @@
     "addons": [
         {
             "id": "pandas_syntax_c",
-            "version": "0.0.1",
+            "version": "0.2",
             "type": "plugin",
             "tags": ["language"],
             "description": "a slightly tweaked syntax to c for my theme to make it look prettier",
@@ -11,7 +11,7 @@
         {
             "id": "pandas_syntax_cpp",
             "mod_version": "3",
-            "version": "0.0.1",
+            "version": "0.2",
             "type": "plugin",
             "tags": ["language"],
             "description": "a slightly tweaked syntax to cpp for my theme to make it look prettier mainly used for .h files but i will be working on cpp",
@@ -20,9 +20,9 @@
         {
             "id": "pandas_syntax_zig",
             "mod_version": "3",
-            "version": "0.0.1",
-            "type": "color",
-            "tags": ["theme"],
+            "version": "0.2",
+            "type": "plugin",
+            "tags": ["language"],
             "description": "a slightly tweaked syntax to zig for my theme",
             "path": "panda_language_zig.lua"
         },
